@@ -10,13 +10,7 @@ import {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
-    <Switch>
-        <Route path="/">
         <App />
-      </Route>
-    </Switch>
-  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
